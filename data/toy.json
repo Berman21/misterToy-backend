@@ -1,0 +1,135 @@
+[
+  {
+    "name": "noga",
+    "price": 1,
+    "labels": [
+      "On wheels",
+      "Art",
+      "Baby"
+    ],
+    "inStock": true,
+    "createdAt": "2023-01-09T23:35:14.475Z",
+    "_id": "hwqeU"
+  },
+  {
+    "name": "noga",
+    "price": 12,
+    "labels": [
+      "Puzzle"
+    ],
+    "inStock": false,
+    "createdAt": "2023-01-09T23:32:27.793Z",
+    "_id": "FwL2B"
+  },
+  {
+    "_id": "118068",
+    "name": "quis nunc",
+    "price": 61,
+    "labels": [
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "1977-09-30T08:36:49.799Z",
+    "inStock": false
+  },
+  {
+    "_id": "118069",
+    "name": "ante lacus",
+    "price": 0,
+    "labels": [
+      "On wheels",
+      "Art",
+      "Baby"
+    ],
+    "createdAt": "1985-08-15T16:09:45.382Z",
+    "inStock": false
+  },
+  {
+    "_id": "118070",
+    "name": "lorem morbi",
+    "price": 39,
+    "labels": [
+      "Puzzle",
+      "Baby"
+    ],
+    "createdAt": "1999-06-05T11:31:01.936Z",
+    "inStock": true
+  },
+  {
+    "_id": "118072",
+    "name": "amet lacus",
+    "price": 18,
+    "labels": [
+      "On wheels",
+      "Outdoor",
+      "Battery Powered"
+    ],
+    "createdAt": "1976-11-28T23:37:46.099Z",
+    "inStock": false
+  },
+  {
+    "_id": "118073",
+    "name": "ac odio",
+    "price": 27,
+    "labels": [
+      "Art",
+      "Doll",
+      "Baby"
+    ],
+    "createdAt": "1990-07-28T23:36:15.927Z",
+    "inStock": false
+  },
+  {
+    "_id": "118074",
+    "name": "nullam vel",
+    "price": 38,
+    "labels": [
+      "Outdoor",
+      "Battery Powered"
+    ],
+    "createdAt": "1983-03-13T23:10:02.008Z",
+    "inStock": true
+  },
+  {
+    "_id": "118075",
+    "name": "sed pulvinar",
+    "price": 91,
+    "labels": [
+      "Art"
+    ],
+    "createdAt": "1980-08-15T14:52:24.425Z",
+    "inStock": true
+  },
+  {
+    "_id": "118078",
+    "name": "sit tincidunt",
+    "price": 17,
+    "labels": [
+      "Doll"
+    ],
+    "createdAt": "1987-04-17T19:58:24.615Z",
+    "inStock": true
+  },
+  {
+    "_id": "118079",
+    "name": "id magna",
+    "price": 23,
+    "labels": [
+      "Baby",
+      "Doll"
+    ],
+    "createdAt": "1998-01-07T18:34:57.836Z",
+    "inStock": true
+  },
+  {
+    "_id": "118080",
+    "name": "magna ante",
+    "price": 41,
+    "labels": [
+      "On wheels",
+      "Battery Powered"
+    ],
+    "createdAt": "1977-09-27T11:01:21.509Z",
+    "inStock": true
+  }
+]
