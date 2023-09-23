@@ -1,9 +1,13 @@
+import path, { dirname } from 'path';
+import { fileURLToPath } from 'url';
+
 import express from 'express'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
 
 import { toyService } from './services/toy.service.js'
 
+const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express()
 
 // Express App Config
@@ -16,20 +20,20 @@ if (process.env.NODE_ENV === 'production') {
 } else {
     const corsOptions = {
         origin: [
-            'http://127.0.0.1:3000',
-             'http://localhost:3000',
-             'http://localhost:5173',
-             'http://127.0.0.1:5173',
-            ],
+            'http://127.0.0.1:3030',
+            'http://localhost:3030',
+            'http://localhost:5173',
+            'http://127.0.0.1:5173',
+        ],
         credentials: true
     };
     app.use(cors(corsOptions));
 }
 
 app.get('/api/toy', (req, res) => {
-    const {filterBy = {}, sort = {}} = req.query.params
+    const { filterBy = {}, sort = {} } = req.query.params
     console.log("req.query.params:", req.query.params)
-    
+
     toyService.query(filterBy, sort)
         .then(toys => {
             res.send(toys)
